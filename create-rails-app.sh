@@ -28,6 +28,8 @@ gem install rails
 
 echo Creating new rails application
 rails new $1
+echo "ruby-2.1.1" > .ruby-version
+echo "$1-gems" > .ruby-version
 
 rvm gemset list
 
